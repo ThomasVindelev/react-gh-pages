@@ -1,7 +1,7 @@
 import { Grid, Typography } from "@mui/material"
 import React from "react"
 
-export const Home = () => {
+const Home = () => {
     return (
         <Grid container display="flex" alignItems="center">
             <Grid item>
@@ -17,3 +17,5 @@ export const Home = () => {
         </Grid>
     )
 }
+
+export default Home;
